@@ -1,6 +1,6 @@
 Feature: US1003 kullanici dataTables sayfasina kayitli bilgileriyle login olur
 
-@vip
+
   Scenario: TC10 kullanici dogru bilgiler girerek giris yapabilmeli
     Given kullanici "dataTablesUrl" sayfasina gider
     Then datatables anasayfada oldugunu test eder

@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="5.916">
-    <testcase classname="US1003 kullanici dataTables sayfasina kayitli bilgileriyle login olur" name="TC10 kullanici dogru bilgiler girerek giris yapabilmeli" time="5.765">
-        <system-out>
-            <![CDATA[Given kullanici "dataTablesUrl" sayfasina gider.............................passed
-Then datatables anasayfada oldugunu test eder...............................passed
-And kullanici login register butonuna basar.................................passed
-And kullanici dogru email girer.............................................passed
-And kullanici dogru password girer..........................................passed
-And kullanici sign in register butonuna basar...............................passed
-And sayfayi kapatir.........................................................passed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.209">
+    <testcase classname="US1005 herokuapp sayfasinda eleman ekleyip silme" name="TC12 herokuapp sayfasina giderek istenen sayida eleman ekleyip silme" time="0.049">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given kullanici "heroukUrl" sayfasina gider.................................passed
+Then "100" defa add element butonuna basar..................................undefined
 ]]>
-        </system-out>
+        </failure>
     </testcase>
 </testsuite>
