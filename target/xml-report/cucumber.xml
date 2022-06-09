@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="5.916">
+    <testcase classname="US1003 kullanici dataTables sayfasina kayitli bilgileriyle login olur" name="TC10 kullanici dogru bilgiler girerek giris yapabilmeli" time="5.765">
+        <system-out>
+            <![CDATA[Given kullanici "dataTablesUrl" sayfasina gider.............................passed
+Then datatables anasayfada oldugunu test eder...............................passed
+And kullanici login register butonuna basar.................................passed
+And kullanici dogru email girer.............................................passed
+And kullanici dogru password girer..........................................passed
+And kullanici sign in register butonuna basar...............................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

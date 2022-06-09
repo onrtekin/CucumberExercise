@@ -1,0 +1,8 @@
+pages\AutomationexercisePages.class
+stepdefinitions\AutomationexerciseStepDefinitions.class
+stepdefinitions\Hooks.class
+pages\DataTablesPage.class
+utilities\ConfigReader.class
+runners\TestRunner.class
+utilities\Driver.class
+stepdefinitions\DataTablesStepDefinitions.class

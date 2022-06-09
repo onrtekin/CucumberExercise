@@ -1,3 +1,4 @@
+
 Feature: US1001 Automationexercise Search
 
 
@@ -85,6 +86,8 @@ Scenario: TC03 kullanici dogru email yanlis password ile login olamaz
         And home butonuna basar
         And anasayfanin basariyla goruntulendigini dogrular
         And sayfayi kapatir
+
+
 
         Scenario: TC08 kullanici urunler sayfasina gider urun inceler
           Given kullanici "automationUrl" sayfasina gider

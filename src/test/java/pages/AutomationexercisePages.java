@@ -133,6 +133,9 @@ public class AutomationexercisePages {
     @FindBy(xpath = "//div[@class='product-details']")
     public WebElement ilkUrunDetay;
 
+    @FindBy(xpath = "//*[text()='Your account']")
+    public WebElement yourAccount;
+
 
 
 
