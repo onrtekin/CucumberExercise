@@ -1,8 +1,12 @@
 pages\AutomationexercisePages.class
 stepdefinitions\AutomationexerciseStepDefinitions.class
 stepdefinitions\Hooks.class
-pages\DataTablesPage.class
-utilities\ConfigReader.class
 runners\TestRunner.class
 utilities\Driver.class
+stepdefinitions\JqeryscriptStepDefinitions.class
+pages\HerokuPage.class
+pages\JqeryscriptPage.class
+pages\DataTablesPage.class
+utilities\ConfigReader.class
+stepdefinitions\HerokuStepDefinitions.class
 stepdefinitions\DataTablesStepDefinitions.class

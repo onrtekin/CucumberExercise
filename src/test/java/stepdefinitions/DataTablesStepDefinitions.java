@@ -1,6 +1,7 @@
 package stepdefinitions;
 
 import io.cucumber.java.en.And;
+import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import pages.DataTablesPage;
@@ -53,6 +54,73 @@ public class DataTablesStepDefinitions {
     @And("kullanici dogru password girer")
     public void kullaniciDogruPasswordGirer() {
         dataTables.passwordTextBox.sendKeys(ConfigReader.getProperty("dataTablesValidPassword"));
+
+    }
+
+    @Then("new butonuna basar")
+    public void newButonunaBasar() {
+        dataTables.newButton.click();
+
+    }
+
+    @And("isim bolumune {string} girer")
+    public void isimBolumuneGirer(String isim) {
+        dataTables.firstNameTextBox.sendKeys(isim);
+
+    }
+
+    @And("soyisim bolumune {string} girer")
+    public void soyisimBolumuneGirer(String soyIsim) {
+        dataTables.lastNameTextBox.sendKeys(soyIsim);
+
+    }
+
+    @And("pozisyon bolumune {string} girer")
+    public void pozisyonBolumuneGirer(String position) {
+        dataTables.positionTextBox.sendKeys(position);
+
+    }
+
+    @And("office bolumune {string} girer")
+    public void officeBolumuneGirer(String office) {
+        dataTables.officeTextBox.sendKeys(office);
+
+    }
+
+    @And("extension bolumune {string} girer")
+    public void extensionBolumuneGirer(String ext) {
+        dataTables.extnTextBox.sendKeys(ext);
+
+    }
+
+    @And("start date bolumune {string} girer")
+    public void startDateBolumuneGirer(String startdate) {
+        dataTables.startDateTextBox.sendKeys(startdate);
+
+    }
+
+    @And("salary bolumune {string} girer")
+    public void salaryBolumuneGirer(String salary) {
+        dataTables.salaryTextBox.sendKeys(salary);
+
+
+    }
+
+    @And("create buttonuna basar")
+    public void createButtonunaBasar() {
+        dataTables.createButton.click();
+
+    }
+
+    @And("kullanici {string} ile arama yapar")
+    public void kullaniciIleAramaYapar(String isimleAra) {
+        dataTables.searchTextBox.sendKeys(isimleAra);
+
+    }
+
+    @And("isim bolumunde {string} oldugunu test eder")
+    public void isimBolumundeOldugunuTestEder(String isimVarmi) {
+        Assert.assertTrue(dataTables.aramaSonucuIlkElement.getText().contains(isimVarmi));
 
     }
 }

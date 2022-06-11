@@ -1,10 +1,88 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.209">
-    <testcase classname="US1005 herokuapp sayfasinda eleman ekleyip silme" name="TC12 herokuapp sayfasina giderek istenen sayida eleman ekleyip silme" time="0.049">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given kullanici "heroukUrl" sayfasina gider.................................passed
-Then "100" defa add element butonuna basar..................................undefined
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="23.014">
+    <testcase classname="US1002 kullanici datatables sayfasina kayit olur" name="TC13 kullanici datatables sayfasinda 5 farli giris kaydi yapabilmeli" time="4.292">
+        <system-out>
+            <![CDATA[Given kullanici "dataTablesUrl" sayfasina gider.............................passed
+Then new butonuna basar.....................................................passed
+And isim bolumune "omer faik" girer.........................................passed
+And soyisim bolumune "tekin" girer..........................................passed
+And pozisyon bolumune "developer" girer.....................................passed
+And office bolumune "newyork" girer.........................................passed
+And extension bolumune "java" girer.........................................passed
+And start date bolumune "2022-01-01" girer..................................passed
+And salary bolumune "150000" girer..........................................passed
+And create buttonuna basar..................................................passed
+And kullanici "omer faik" ile arama yapar...................................passed
+And isim bolumunde "omer faik" oldugunu test eder...........................passed
 ]]>
-        </failure>
+        </system-out>
+    </testcase>
+    <testcase classname="US1002 kullanici datatables sayfasina kayit olur" name="TC13 kullanici datatables sayfasinda 5 farli giris kaydi yapabilmeli 2" time="3.322">
+        <system-out>
+            <![CDATA[Given kullanici "dataTablesUrl" sayfasina gider.............................passed
+Then new butonuna basar.....................................................passed
+And isim bolumune "nilufer" girer...........................................passed
+And soyisim bolumune "tekin" girer..........................................passed
+And pozisyon bolumune "QA" girer............................................passed
+And office bolumune "chicago" girer.........................................passed
+And extension bolumune "phyton" girer.......................................passed
+And start date bolumune "2022-01-01" girer..................................passed
+And salary bolumune "200000" girer..........................................passed
+And create buttonuna basar..................................................passed
+And kullanici "nilufer" ile arama yapar.....................................passed
+And isim bolumunde "nilufer" oldugunu test eder.............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1002 kullanici datatables sayfasina kayit olur" name="TC13 kullanici datatables sayfasinda 5 farli giris kaydi yapabilmeli 3" time="7.728">
+        <system-out>
+            <![CDATA[Given kullanici "dataTablesUrl" sayfasina gider.............................passed
+Then new butonuna basar.....................................................passed
+And isim bolumune "secil" girer.............................................passed
+And soyisim bolumune "gudul" girer..........................................passed
+And pozisyon bolumune "datascient" girer....................................passed
+And office bolumune "texas" girer...........................................passed
+And extension bolumune "javascr" girer......................................passed
+And start date bolumune "2022-01-01" girer..................................passed
+And salary bolumune "220000" girer..........................................passed
+And create buttonuna basar..................................................passed
+And kullanici "secil" ile arama yapar.......................................passed
+And isim bolumunde "secil" oldugunu test eder...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1002 kullanici datatables sayfasina kayit olur" name="TC13 kullanici datatables sayfasinda 5 farli giris kaydi yapabilmeli 4" time="3.94">
+        <system-out>
+            <![CDATA[Given kullanici "dataTablesUrl" sayfasina gider.............................passed
+Then new butonuna basar.....................................................passed
+And isim bolumune "ridvan" girer............................................passed
+And soyisim bolumune "salt" girer...........................................passed
+And pozisyon bolumune "engineer" girer......................................passed
+And office bolumune "boston" girer..........................................passed
+And extension bolumune "dna" girer..........................................passed
+And start date bolumune "2022-01-01" girer..................................passed
+And salary bolumune "250000" girer..........................................passed
+And create buttonuna basar..................................................passed
+And kullanici "ridvan" ile arama yapar......................................passed
+And isim bolumunde "ridvan" oldugunu test eder..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1002 kullanici datatables sayfasina kayit olur" name="TC13 kullanici datatables sayfasinda 5 farli giris kaydi yapabilmeli 5" time="3.493">
+        <system-out>
+            <![CDATA[Given kullanici "dataTablesUrl" sayfasina gider.............................passed
+Then new butonuna basar.....................................................passed
+And isim bolumune "beril" girer.............................................passed
+And soyisim bolumune "gudul" girer..........................................passed
+And pozisyon bolumune "teacher" girer.......................................passed
+And office bolumune "california" girer......................................passed
+And extension bolumune "english" girer......................................passed
+And start date bolumune "2022-01-01" girer..................................passed
+And salary bolumune "100000" girer..........................................passed
+And create buttonuna basar..................................................passed
+And kullanici "beril" ile arama yapar.......................................passed
+And isim bolumunde "beril" oldugunu test eder...............................passed
+]]>
+        </system-out>
     </testcase>
 </testsuite>
